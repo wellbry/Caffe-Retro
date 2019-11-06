@@ -1,7 +1,37 @@
+
 *{
     box-sizing: border-box;
-/* height: 100vh; */
+    /* font-family: 'Spirax', cursive; */
+    /* font-family: 'Poiret One', cursive; */
 }
 body{
     margin: 0;
+    padding: 0;
+    font-family: 'Poiret One';
+    color: white;
+    background-color: red;
+}
+h1{
+    font-family: Spirax;
+    font-size: 72px;
+    color: red;
+    text-align: center;
+}
+#hot{
+  background-image: url("img/hot.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+}
+#juicy{
+    background-image: url("img/juicy.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+}
+#cosy{
+    background-image: url("img/cosy.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
 }
