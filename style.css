@@ -1,21 +1,79 @@
 
 *{
     box-sizing: border-box;
-    /* font-family: 'Spirax', cursive; */
-    /* font-family: 'Poiret One', cursive; */
 }
 body{
     margin: 0;
     padding: 0;
     font-family: 'Poiret One';
     color: white;
-    background-color: red;
+    font-size: 20px;
+   /*  background-color: red; */
+}
+nav{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color:black;
+    opacity: 0.5; */
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Spirax;
+    font-size: 40px;
+    margin: 7%;
 }
 h1{
+    position: relative;
+    top: 18%;
     font-family: Spirax;
-    font-size: 72px;
+    font-size: 100px;
     color: red;
     text-align: center;
+    margin: 0;
+}
+div{
+    padding: 0;
+}
+p{
+    display: inline-block;
+    /* font-size: 20px; */
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    background-color:rgba(255, 0, 0, 0.5);
+}
+.p1{
+    position: relative;
+    top: 19%;
+    left: 10%;
+}
+.p2{
+    position: relative;
+    top: 17%;
+    left: 30%;
+}
+table{
+    position: relative;
+    /* margin: 20px; */
+    padding: 15px 60px;
+    top: 19%;
+    left: 20%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+th{
+    text-align: left;
+    font-weight: normal;
+   /*  width: 200px; */
+    
+}
+td{
+    text-align: right;
+  /*   width: 200px; */
 }
 #hot{
   background-image: url("img/hot.jpg");
